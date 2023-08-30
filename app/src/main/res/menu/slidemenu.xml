@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/homeid"
+            android:icon="@drawable/icon"
+            android:title="Home"
+            >
+        </item>
+        <item android:id="@+id/dashboard"
+            android:icon="@drawable/icon"
+            android:title="Dasboard"
+            ></item>
+        <item android:id="@+id/dashboard"
+            android:icon="@drawable/icon"
+            android:title="Course"
+            ></item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Helpline">
+            <menu>
+                <item
+                    android:id="@+id/Phone"
+                    android:icon="@drawable/icon"
+                    android:title="Phone"></item>
+                <item
+                    android:id="@+id/email"
+                    android:icon="@drawable/icon"
+                    android:title="Mail"></item>
+            </menu>
+        </item>
+        <item android:title="Authentication">
+            <menu>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/icon"
+                    android:title="Logout"></item>
+            </menu>
+        </item>
+
+
+    </group>
+
+</menu>
