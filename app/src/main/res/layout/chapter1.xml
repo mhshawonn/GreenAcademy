@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".web">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tooBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/GREEN"
+                app:title="PHYSICS 1ST PAPER">
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/unicode"
+            android:text="TO BUY FULL COURSE"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="960dp"
+            android:fontFamily="@font/unicode"
+            android:text="TO BUY FULL COURSE"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="590dp"
+                android:layout_marginLeft="250dp"
+                android:hint="CLICK HERE"
+                android:textColorHint="@color/white"
+                android:fontFamily="@font/unicode"
+                android:textSize="20dp"
+                android:id="@+id/course1"
+
+                ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="955dp"
+            android:layout_marginLeft="250dp"
+            android:hint="CLICK HERE"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/unicode"
+            android:textSize="20dp"
+            android:id="@+id/course2"
+
+            ></Button>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="480dp"
+            android:src="@drawable/teacher"
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="855dp"
+            android:src="@drawable/teacher"
+
+            ></ImageView>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginStart="80dp"
+                android:text="About course teacher"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/anton"
+                android:textColor="#57C84D"
+
+                ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="512dp"
+            android:fontFamily="@font/unicode"
+            android:text="Mh Shawon \nCSE,UNIVERSITY OF DHAKA"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="850dp"
+            android:layout_marginStart="80dp"
+            android:text="About course teacher"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/anton"
+            android:textColor="#57C84D"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="880dp"
+            android:fontFamily="@font/unicode"
+            android:text="Tahsin Ahmed\nCSE,UNIVERSITY OF DHAKA"
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></TextView>
+
+
+        <WebView
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_width="240dp"
+            android:layout_height="150dp"
+            android:id="@+id/class1">
+        </WebView>
+        <WebView
+            android:layout_marginTop="685dp"
+            android:layout_marginStart="50dp"
+            android:layout_width="240dp"
+            android:layout_height="150dp"
+            android:id="@+id/class2">
+        </WebView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-13dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            app:cardCornerRadius="40dp"
+            app:cardBackgroundColor="#20e015"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:text="CHOOSE YOUR \n FAVOURITE \n TEACHER COURSE"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:fontFamily="@font/unicode"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/webinar"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"
+                ></ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>

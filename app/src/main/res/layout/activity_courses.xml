@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@color/white"
+    tools:context=".courses">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tooBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/GREEN">
+
+        <!-- Add a horizontal LinearLayout to hold the image and title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/course"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courses"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/archo"
+            android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:id="@+id/hsc"
+        android:layout_marginTop="15dp"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/academic">
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="HSC ANIMATED PROGRAMME"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/unicode"
+            ></TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COURSE FEE ONLY"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:fontFamily="@font/unicode"
+            ></TextView>
+        <TextView
+            android:layout_marginTop="-32dp"
+            android:layout_marginLeft="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ৳ 500"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/GREEN"
+            android:fontFamily="@font/unicode"
+            ></TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="DETAILS"
+            android:id="@+id/button1"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/GREEN"
+
+
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:id="@+id/chapterwise"
+            android:layout_marginTop="15dp"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/chapterwise">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHAPTERWISE PROGRAMME"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/unicode"
+                ></TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COURSE FEE ONLY"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:fontFamily="@font/unicode"
+                ></TextView>
+            <TextView
+                android:layout_marginTop="-32dp"
+                android:layout_marginLeft="180dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ৳ 500"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                android:textColor="@color/GREEN"
+                android:fontFamily="@font/unicode"
+                ></TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="DETAILS"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/GREEN"
+
+
+                >
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:id="@+id/exam"
+            android:layout_marginTop="15dp"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/exam">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ONLINE EXAM PROGRAMME"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/unicode"
+                ></TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COURSE FEE ONLY"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:fontFamily="@font/unicode"
+                ></TextView>
+            <TextView
+                android:layout_marginTop="-32dp"
+                android:layout_marginLeft="180dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ৳ 500"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                android:textColor="@color/GREEN"
+                android:fontFamily="@font/unicode"
+                ></TextView>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="DETAILS"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/GREEN"
+
+
+                >
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

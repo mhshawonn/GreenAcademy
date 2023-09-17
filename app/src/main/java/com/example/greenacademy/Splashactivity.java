@@ -12,7 +12,7 @@ public class Splashactivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashactivity);
-        Intent home=new Intent(Splashactivity.this,scrolling.class);
+        Intent home=new Intent(Splashactivity.this,courses.class);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

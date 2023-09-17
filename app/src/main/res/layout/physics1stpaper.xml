@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".physics1stpaper"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tooBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/GREEN"
+                app:title="PHYSICS 1ST PAPER">
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-13dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="40dp"
+            app:cardBackgroundColor="#20e015"
+            app:cardElevation="11dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            app:cardUseCompatPadding="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi!!\nThere"
+                android:textSize="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/unicode"
+        >
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            style="?materialButtonOutlinedStyle"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="1ST CHAPTER"
+            android:textColor="@color/black"
+
+            android:fontFamily="@font/archo"
+            android:id="@+id/chapter1"
+
+
+            >
+
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-50dp"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+            android:text="2ND CHAPTER"
+            android:id="@+id/chapter2"
+            android:textColor="@color/black"
+            >
+
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="3RD CHAPTER"
+            android:textColor="@color/black"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+
+
+            >
+
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-50dp"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+            android:text="4TH CHAPTER"
+            android:textColor="@color/black"
+            >
+
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="5TH CHAPTER"
+            android:textColor="@color/black"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+
+
+            >
+
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-50dp"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+            android:text="6TH CHAPTER"
+            android:textColor="@color/black"
+            >
+
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="7TH CHAPTER"
+            android:textColor="@color/black"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+
+
+            >
+
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-50dp"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+            android:text="8TH CHAPTER"
+            android:textColor="@color/black"
+            >
+
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="9TH CHAPTER"
+            android:textColor="@color/black"
+            style="?materialButtonOutlinedStyle"
+            android:fontFamily="@font/archo"
+
+
+            >
+
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+
+            style="?materialButtonOutlinedStyle"
+            android:layout_marginTop="-50dp"
+
+            android:fontFamily="@font/archo"
+            android:text="10TH CHAPTER"
+            android:textColor="@color/black"
+            >
+
+
+            +`
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
