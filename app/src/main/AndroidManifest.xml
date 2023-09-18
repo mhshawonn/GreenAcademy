@@ -15,9 +15,11 @@
         android:theme="@style/Theme.GreenAcademy"
         tools:targetApi="31">
         <activity
+            android:name=".coursehelper"
+            android:exported="false" />
+        <activity
             android:name=".physics1stpaper"
             android:exported="false" />
-
         <activity
             android:name=".web"
             android:exported="false" />

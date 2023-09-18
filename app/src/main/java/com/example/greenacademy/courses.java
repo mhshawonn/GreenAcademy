@@ -16,7 +16,7 @@ public class courses extends AppCompatActivity {
 
         // Initialize views and create an intent
         LinearLayout hsc = findViewById(R.id.hsc);
-        Intent intent = new Intent(courses.this, physics1stpaper.class);
+        Intent intent = new Intent(courses.this, coursehelper.class);
         Button button1 = findViewById(R.id.button1);
 
         // Set an onClickListener for the button

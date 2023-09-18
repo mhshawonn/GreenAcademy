@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coursehelper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/GREEN"
+                app:title="CHOOSE YOUR CHAPTER">
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/chapterwise"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/exam"
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/physics1stpaper"
+            android:orientation="vertical"
+            android:background="@drawable/rouded_border"
+            android:layout_marginTop="35dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="PHYSICS 1ST"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/physics2ndpaper"
+            android:orientation="vertical"
+            android:background="@drawable/rouded_border"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="PHYSICS 2ND"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/math1stpaper"
+            android:orientation="vertical"
+            android:background="@drawable/rouded_border"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="MATH 1ST"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/math2ndpaper"
+            android:orientation="vertical"
+            android:background="@drawable/rouded_border"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="MATH 2ND"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/biologypaper"
+            android:orientation="vertical"
+            android:background="@drawable/rouded_border"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="BIOLOGY 1ST"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/biology2ndpaper"
+            android:orientation="vertical"
+            android:background="@drawable/rouded_border"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="BIOLOGY 2ND"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ict"
+            android:orientation="vertical"
+            android:background="@drawable/rouded_border"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="ICT"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
